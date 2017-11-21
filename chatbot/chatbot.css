@@ -1,0 +1,24 @@
+/*
+	Global classes
+					*/
+
+.head-bar {
+	background-color: purple;
+	font-family: Avenir, sans-serif;
+}
+
+.text-box{
+	display: inline;
+}
+
+.send-button{
+	display: inline;
+}
+
+#chat-window{
+	height: 300px;
+	width: 500px;
+	border: 1px black solid;
+	overflow: scroll;
+	margin-bottom: 20px;
+}
