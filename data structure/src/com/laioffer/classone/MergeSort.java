@@ -10,7 +10,8 @@ public class MergeSort {
 	}
 	public static int[] mergeSort(int[] array) {
 		int mid = array.length/2;
-		int left = helper(array,0,mid);
-		int right = helper(array,mid+1,array.length-1);
+		//int left = helper(array,0,mid);
+		//int right = helper(array,mid+1,array.length-1);
+		return array;
 	}
 }
