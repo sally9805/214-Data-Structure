@@ -40,21 +40,15 @@ public class MergeSort {
 			}
 			k++;
 		}
-		if(k<length) {
-			if(i == leftlength) {
-				while(j<rightlength) {
-					temp[k] = array[leftend+1+j];
-					j++;
-					k++;
-				}
-			}
-			else if (j == rightlength){
-				while(i<leftlength) {
-					temp[k] = array[start+i];
-					i++;
-					k++;
-				}
-			}
+		while(j<rightlength) {
+			temp[k] = array[leftend+1+j];
+			j++;
+			k++;
+		}
+		while(i<leftlength) {
+			temp[k] = array[start+i];
+			i++;
+			k++;
 		}
 		for(int l=0; l<length;l++) {
 			array[start+l] = temp[l];
