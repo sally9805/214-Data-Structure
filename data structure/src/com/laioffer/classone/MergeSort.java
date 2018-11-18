@@ -8,6 +8,11 @@ public class MergeSort {
 		for (int i = 0;i<array.length;i++) {
 			System.out.print(array[i]);
 		}
+		int[] a1 = null;
+		int[] a2 = new int[0];
+		if (a2 != null) {
+			System.out.print(a1);
+		}
 	}
 	
 	public static void mergeSort(int[] array, int start, int end) {
